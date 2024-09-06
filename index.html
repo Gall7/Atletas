@@ -1,0 +1,32 @@
+<!DOCTYPE html> <!--Essa declaração especifica o tipo de documento. Neste caso, indica que o documento é um HTML5.-->
+<html lang="pt-br"> <!--Define o elemento raiz do documento HTML e define o idioma.-->
+
+<head> <!--Contém informações sobre o documento, como o título e metadados, info para a máquina-->
+    <meta charset="UTF-8"> <!--Especifica o conjunto de caracteres utilizado no documento.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Define como a página deve ser exibida em diferentes tamanhos de tela.-->
+    <link rel="stylesheet" href="styles.css"> <!--para utilizar o CSS no projeto HTML-->
+    <title>Gabriel</title> <!--Define o título da página.-->
+</head> <!-- Fecha a seção-->
+
+<body> <!--Contém o conteúdo visível da página.-->
+    <header> <!---->
+        <h1>Atletas do Brasil</h1>
+    </header> <!--Cabeçalho-->
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome do atleta ou esporte" id="campo-pesquisa"> <!--Add barra de pesquisa-->
+            <button onclick="pesquisar()">pesquisar</button> <!--Add um botão-->
+        </section>
+        <section class="resultados-pesquisa" 
+        id="resultados-pesquisa">
+    </main>
+    <footer> <!--Rodapé-->
+        <p>2024 - Atletas do Brasil. Todos os direitos reservado</p>
+        <p>Entre em contato pelo email: ga.galligalli@gmail.com</p> <!--p = parágrafo-->
+    </footer> <!--Fecha o Rodapé-->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html> <!--Fecha o documento HTML.-->
