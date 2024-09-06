@@ -1,4 +1,4 @@
-##  Atletas do Brasil: Seu guia para os maiores atletas brasileiros!
+##  Atletas do Brasil: Seu guia para os maiores atletas brasileiros! - Imersão Dev com Google Gemini e Alura
 
 **O que faz essa aplicação?**
 
