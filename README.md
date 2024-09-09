@@ -21,3 +21,5 @@ Essa aplicação te ajuda a descobrir mais sobre os seus atletas brasileiros fav
 Se você quiser ajudar a melhorar essa aplicação, fique à vontade para abrir um pull request! Toda ajuda é bem-vinda! 
 
 **Observação:** Essa aplicação ainda está em desenvolvimento, então pode ter alguns bugs ou funcionalidades incompletas.
+
+https://atletas-azure.vercel.app/
